@@ -323,10 +323,10 @@
       position:relative;overflow:hidden;
     }
     .project-thumb-icon{
-      font-size:2.5rem;color:var(--gold);opacity:.15;
+      font-size:2.5rem;color:var(--gold);opacity:1;
       transition:opacity .3s,transform .3s var(--ease);
     }
-    .project-card:hover .project-thumb-icon{opacity:.25;transform:scale(1.05);}
+    .project-card:hover .project-thumb-icon{opacity:1;transform:scale(1.05);}
     .thumb-label{
       position:absolute;bottom:0;left:0;right:0;
       padding:12px 16px;
@@ -589,7 +589,7 @@
       <div class="container about-grid">
         <div class="about-photo-wrap fade-in">
           <div class="about-photo">
-            <img src="img/WIN_20260401_14_56_53_Pro.jpg" alt="Nataniel Epalanga">
+            <img src="img/WIN_20260401_14_56_53_Pro.jpg" alt="Foto Nataniel Epalanga">
             <div class="about-photo-tag">Nataniel Epalanga · Luanda, Angola</div>
             
           </div>
@@ -678,31 +678,32 @@
             <span class="label">Portfólio</span>
             <h2>Trabalhos <span class="gold">selecionados</span></h2>
           </div>
-          <a href="#" class="btn btn-outline">Ver todos →</a>
+          <a href="#projetos" class="btn btn-outline">Ver todos →</a>
         </div>
         <div class="portfolio-grid">
           <div class="project-card fade-in">
             <div class="project-thumb">
-              <i class="fas fa-chart-line project-thumb-icon"></i>
-              <div class="thumb-label">Plataforma CRM Empresarial</div>
+              <img class="fas fa-chart-line project-thumb-icon" src="img\portfolio_captura.jpg" alt="Foto Portfólio Premium">
+              <!-- <div class="thumb-label">Portfólio profissional premium</div> -->
             </div>
             <div class="project-info">
-              <span class="project-tag">Corporativo · SaaS</span>
-              <h3>Plataforma CRM Empresarial</h3>
-              <p>Sistema de gestão de relacionamento com clientes para empresas de médio porte. Interface limpa, relatórios em tempo real e integração com email.</p>
+              <span class="project-tag">Profissional · Portfólio</span>
+              <h3>Meu Portfólio Pessoal</h3>
+              <p>Portfólio moderno, elegante e estratégico, desenvolvido para causar uma primeira impressão memorável.</p>
               <a href="#" class="project-link">Ver projeto <i class="fas fa-arrow-right"></i></a>
             </div>
           </div>
           <div class="project-card fade-in">
             <div class="project-thumb">
-              <i class="fas fa-users project-thumb-icon"></i>
-              <div class="thumb-label">Sistema de Gestão de Clientes</div>
+              <!-- <i class="fas fa-users project-thumb-icon"></i> -->
+               <img class="fas fa-chart-line project-thumb-icon" src="img\mycrm_captura.jpg" alt="Foto Meridian CRM">
+              <!-- <div class="thumb-label">Plataforma CRM Empresarial</div> -->
             </div>
             <div class="project-info">
               <span class="project-tag">Corporativo · Gestão</span>
-              <h3>Sistema de Gestão de Clientes</h3>
+              <h3>Plataforma CRM Empresarial</h3>
               <p>Plataforma interna para rastreamento de leads, gestão de contratos e análise de desempenho comercial. Desenvolvido para equipe de 50+ utilizadores.</p>
-              <a href="#" class="project-link">Ver projeto <i class="fas fa-arrow-right"></i></a>
+              <a href="https://nathaniel-nat.github.io/Meridian-CRM/" class="project-link">Ver Demo <i class="fas fa-arrow-right"></i></a>
             </div>
           </div>
           <div class="project-card fade-in">
@@ -714,7 +715,7 @@
               <span class="project-tag">Fintech · Ferramenta</span>
               <h3>Conversor de Moeda em Tempo Real</h3>
               <p>Aplicação web de conversão cambial com taxas em tempo real, histórico de variação e suporte a múltiplas divisas africanas e internacionais.</p>
-              <a href="#" class="project-link">Ver projeto <i class="fas fa-arrow-right"></i></a>
+              <a class="project-link">Disponível em breve <i class="fas fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
